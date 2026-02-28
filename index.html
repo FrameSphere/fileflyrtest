@@ -122,7 +122,6 @@
         </div>
     </header>
 
-    <!-- HOMEPAGE CONTENT -->
     <div id="homepageContent">
         <section class="hero">
             <div class="hero-content">
@@ -284,76 +283,6 @@
         </div>
     </div>
 
-    <!-- CONVERTER PAGE CONTENT (dynamically shown/hidden) -->
-    <div id="converterUI" class="converter-page" style="display: none;">
-        <div class="converter-box">
-            <h1 id="converterTitle">Converter</h1>
-            <p class="subtitle" id="converterSubtitle">Convert your files</p>
-
-            <!-- Drop Zone -->
-            <div id="dropZone" class="drop-zone">
-                <div class="drop-content">
-                    <div class="drop-icon" id="converterIcon">📁</div>
-                    <div class="drop-text">Drag & Drop files here</div>
-                    <div class="drop-subtext">or click to browse</div>
-                </div>
-            </div>
-
-            <input type="file" id="fileInput" multiple style="display: none;">
-
-            <!-- Preview Area -->
-            <div id="previewArea" class="preview-area" style="display: none;">
-                <h3>Selected Files (<span id="fileCount">0</span>)</h3>
-                <div id="fileList" class="image-list">
-                    <!-- Files will be listed here -->
-                </div>
-            </div>
-
-            <!-- Options Area -->
-            <div id="optionsArea" class="options-area" style="display: none;">
-                <h3>Conversion Options</h3>
-                <div id="optionsContent" class="options-grid">
-                    <!-- Options will be populated by converter module -->
-                </div>
-                <button id="convertBtn" class="convert-btn">Convert Files</button>
-            </div>
-
-            <!-- Progress Area -->
-            <div id="progressArea" class="progress-area" style="display: none;">
-                <div class="progress-bar">
-                    <div id="progressFill" class="progress-fill" style="width: 0%;"></div>
-                </div>
-                <p id="progressText">Processing...</p>
-            </div>
-
-            <!-- Download Area -->
-            <div id="downloadArea" class="download-area" style="display: none;">
-                <div class="success-icon">✓</div>
-                <h3>Conversion Complete!</h3>
-                <div id="downloadButtons"></div>
-                <button id="resetBtn" class="reset-btn">Convert More Files</button>
-            </div>
-
-            <!-- Post Conversion Ad -->
-            <div id="postConversionAd" class="ad-container ad-post-conversion" style="display: none;">
-                <div class="ad-placeholder ad-large-rectangle">
-                    <span class="ad-label">Advertisement</span>
-                    <div class="ad-placeholder-content">336 x 280</div>
-                </div>
-            </div>
-
-            <!-- Privacy Notice -->
-            <div class="privacy-notice">
-                <p><strong>🔒 100% Private:</strong> All files are processed locally in your browser. Nothing is uploaded to any server.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- CONVERTER INFORMATION CONTENT (dynamically loaded) -->
-    <div id="converterInfo" class="converter-info-content" style="display: none;">
-        <!-- Content will be dynamically inserted here -->
-    </div>
-
     <footer>
         <div class="footer-content">
             <div class="footer-main">
@@ -400,21 +329,15 @@
     
     <script src="/js/core.js"></script>
     
-    <!-- Icon System -->
     <script type="module">
         import { ICONS } from '/js/icons.js';
         window.ICONS = ICONS;
     </script>
-    
-    <!-- Router (MUST BE LOADED FIRST) -->
-    <script type="module" src="/js/router.js"></script>
-    
-    <!-- Homepage Script (only loads if on homepage) -->
+
     <script type="module">
         import { getConvertersByCategory, searchConverters } from '/js/converter-registry.js';
 
-        // Only run homepage logic if we're on homepage
-        if (window.location.pathname === '/' || window.location.pathname === '') {
+        {
             // Populate converter grid
             function populateConverterGrid() {
                 const grid = document.getElementById('converterGrid');
@@ -462,6 +385,7 @@
             } else {
                 populateConverterGrid();
             }
+
 
             // Search functionality
             const searchInput = document.getElementById('searchInput');

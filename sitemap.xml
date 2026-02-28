@@ -1,161 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <!-- Homepage -->
   <url>
-    <loc>https://fileflyr.pages.dev/</loc>
-    <lastmod>2026-01-06</lastmod>
+    <loc>https://fileflyr.com/</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Legal Pages -->
-  <url>
-    <loc>https://fileflyr.pages.dev/impressum.html</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/datenschutz.html</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/licenses.html</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <!-- Image Converters -->
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/png-to-jpg</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/jpg-to-png</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/webp-to-jpg</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/webp-to-png</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/heic-to-jpg</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/image-compress</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/image-resize</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- PDF Converters -->
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/img-to-pdf</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/jpg-to-pdf</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/png-to-pdf</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/pdf-to-jpg</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/pdf-to-png</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/pdf-merge</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/pdf-split</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Audio Converters -->
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/mp3-to-wav</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/wav-to-mp3</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Video Converters -->
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/mp4-to-webm</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/gif-to-mp4</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/mp4-to-gif</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Document Converters -->
-  <url>
-    <loc>https://fileflyr.pages.dev/convert/txt-to-pdf</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+
+  <!-- Legal / Info Pages -->
+  <url><loc>https://fileflyr.com/impressum.html</loc><lastmod>2026-01-06</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://fileflyr.com/datenschutz.html</loc><lastmod>2026-01-06</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://fileflyr.com/licenses.html</loc><lastmod>2026-01-06</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://fileflyr.com/about.html</loc><lastmod>2026-01-06</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+  <!-- ════════════ IMAGE CONVERTERS ════════════ -->
+  <url><loc>https://fileflyr.com/convert/png-to-jpg/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://fileflyr.com/convert/jpg-to-png/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://fileflyr.com/convert/heic-to-jpg/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://fileflyr.com/convert/webp-to-jpg/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/webp-to-png/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/avif-to-jpg/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/bmp-to-png/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/ico-to-png/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/svg-to-png/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/tiff-to-jpg/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/image-compress/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/image-resize/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/image-crop/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/image-rotate/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/image-grayscale/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/remove-bg/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ════════════ PDF CONVERTERS ════════════ -->
+  <url><loc>https://fileflyr.com/convert/img-to-pdf/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://fileflyr.com/convert/jpg-to-pdf/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/png-to-pdf/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/pdf-to-jpg/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://fileflyr.com/convert/pdf-to-png/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/pdf-merge/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/pdf-split/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/pdf-compress/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ════════════ DOCUMENT CONVERTERS ════════════ -->
+  <url><loc>https://fileflyr.com/convert/txt-to-pdf/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fileflyr.com/convert/html-to-pdf/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fileflyr.com/convert/markdown-to-pdf/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fileflyr.com/convert/csv-to-pdf/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- ════════════ AUDIO CONVERTERS ════════════ -->
+  <url><loc>https://fileflyr.com/convert/mp3-to-wav/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/wav-to-mp3/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/audio-trim/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fileflyr.com/convert/audio-normalize/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- ════════════ VIDEO CONVERTERS ════════════ -->
+  <url><loc>https://fileflyr.com/convert/mov-to-mp4/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/mp4-to-webm/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/gif-to-mp4/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fileflyr.com/convert/mp4-to-gif/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fileflyr.com/convert/video-trim/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fileflyr.com/convert/video-to-audio/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
 </urlset>

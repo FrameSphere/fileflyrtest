@@ -364,10 +364,10 @@
                 <div class="footer-links">
                     <div class="footer-column">
                         <h4>Popular Tools</h4>
-                        <a href="/convert/png-to-jpg">PNG to JPG</a>
-                        <a href="/convert/jpg-to-png">JPG to PNG</a>
-                        <a href="/convert/heic-to-jpg">HEIC to JPG</a>
-                        <a href="/convert/img-to-pdf">Image to PDF</a>
+                        <a href="/convert/png-to-jpg/">PNG to JPG</a>
+                        <a href="/convert/jpg-to-png/">JPG to PNG</a>
+                        <a href="/convert/heic-to-jpg/">HEIC to JPG</a>
+                        <a href="/convert/img-to-pdf/">Image to PDF</a>
                     </div>
                     <div class="footer-column">
                         <h4>Resources</h4>
@@ -428,7 +428,7 @@
                     
                     converters.forEach(converter => {
                         const card = document.createElement('a');
-                        card.href = `/convert/${converter.slug}`;
+                        card.href = `/convert/${converter.slug}/`;
                         card.className = 'converter-card';
                         card.setAttribute('data-category', converter.category);
                         
@@ -477,7 +477,7 @@
                     let visibleCount = 0;
 
                     cards.forEach(card => {
-                        const slug = card.href.split('/').pop();
+                        const slug = card.href.split('/').filter(Boolean).pop();
                         const visible = results.some(r => r.slug === slug);
                         card.style.display = visible ? 'block' : 'none';
                         if (visible) visibleCount++;

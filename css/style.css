@@ -1672,3 +1672,51 @@ footer {
         font-size: 13px;
     }
 }
+
+/* ═══════════════════════════════════════════════
+   Breadcrumb Navigation (converter pages)
+   ══════════════════════════════════════════════ */
+.breadcrumb {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 0;
+}
+
+.breadcrumb-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    flex-wrap: wrap;
+}
+
+.breadcrumb-content a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.breadcrumb-content a:hover {
+    color: var(--accent);
+}
+
+.breadcrumb-content span:not(.breadcrumb-sep) {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.breadcrumb-sep {
+    color: var(--text-tertiary);
+    user-select: none;
+}
+
+@media (max-width: 768px) {
+    .breadcrumb-content {
+        font-size: 13px;
+        padding: 0 16px;
+    }
+}

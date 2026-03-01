@@ -1,22 +1,9 @@
 # ===============================
 # Cloudflare Pages Redirects
-# Static HTML pages + SPA fallback
 # ===============================
 
-# ── Static assets (always serve directly) ──────────────────────────
-/css/*       /css/:splat      200
-/js/*        /js/:splat       200
-/assets/*    /assets/:splat   200
-
-# ── Ads, robots, sitemap ───────────────────────────────────────────
-/ads.txt     /ads.txt         200
-/robots.txt  /robots.txt      200
-/sitemap.xml /sitemap.xml     200
-
-# ── Converter pages: trailing-slash canonical redirects ────────────
-# Without trailing slash → redirect to trailing-slash (SEO canonical)
+# ── Converter pages: without trailing slash → canonical redirect ────
 /convert/:slug   /convert/:slug/  301
 
-# ── SPA fallback ONLY for non-converter routes ─────────────────────
-# (converter pages are real HTML files, served directly by Cloudflare)
+# ── SPA fallback for everything that has no static file ────────────
 /*           /index.html      200
